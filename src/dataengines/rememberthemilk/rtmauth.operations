@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kcfg SYSTEM
+    "http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+<kcfg>
+    <group name="Login">
+    </group>
+    <group name="AuthWithToken">
+        <entry name="token" type="String">
+          <label>The token to authenticate with</label>
+        </entry>
+    </group>
+</kcfg>

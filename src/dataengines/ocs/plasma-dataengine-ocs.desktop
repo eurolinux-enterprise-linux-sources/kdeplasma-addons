@@ -1,0 +1,53 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Open Collaboration Services
+Name[ar]=خدمات التعاون المفتوحة
+Name[ca]=Serveis «Open Collaboration»
+Name[da]=Open Collaboration-tjenester
+Name[de]=Open Collaboration Services
+Name[el]=Άνοιγμα υπηρεσιών ανοιχτής συνεργασίας
+Name[en_GB]=Open Collaboration Services
+Name[es]=Servicios abiertos de colaboración
+Name[et]=Avatud koostööteenused
+Name[fr]=Open Collaboration Services
+Name[gl]=Servizos abertos de colaboración
+Name[hu]=Nyílt csoportmunka-szolgáltatások
+Name[is]=Open Collaboration þjónustur
+Name[it]=Servizi di collaborazione aperta
+Name[km]=បើក​សេវា​សហការណ៍
+Name[lt]=Open Collaboration tarnybos
+Name[lv]=Open Collaboration pakalpojumi
+Name[nb]=Åpne samarbeidstjenester
+Name[nds]=Open-Collaboration-Deensten
+Name[nl]=Open Collaboration Services
+Name[nn]=Opne samarbeidtenester
+Name[pl]=Usługi do współpracy (Open Collaboration)
+Name[pt]=Serviços Abertos de Colaboração
+Name[pt_BR]=Serviços abertos de colaboração
+Name[ro]=Servicii de Colaborare Deschisă
+Name[sk]=Služby Open Collaboration
+Name[sl]=Odprte storitve za sodelovanje
+Name[sr]=Сервиси отворене сарадње
+Name[sr@latin]=Servisi otvorene saradnje
+Name[sv]=Öppna sammarbetstjänster
+Name[tr]=Açık İşbirliği Servisleri
+Name[uk]=Служби Open Collaboration
+Name[wa]=Siervices Open Collaboration
+Name[x-test]=xxOpen Collaboration Servicesxx
+Name[zh_CN]=开发式合作服务
+Name[zh_TW]=開放協同服務
+
+ServiceTypes=Plasma/DataEngine
+Type=Service
+X-KDE-Library=plasma_engine_ocs
+X-Plasma-EngineName=ocs
+
+X-KDE-PluginInfo-Author=Sebastian Kügler
+X-KDE-PluginInfo-Email=sebas@kde.org
+X-KDE-PluginInfo-Name=ocs
+X-KDE-PluginInfo-Version=
+X-KDE-PluginInfo-Website=http://www.opendesktop.org
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+
+

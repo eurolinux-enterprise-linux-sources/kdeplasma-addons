@@ -1,0 +1,47 @@
+[Desktop Entry]
+Type=ServiceType
+X-KDE-ServiceType=PlasmaPoTD/Plugin
+Comment=Plugin for Plasma PoTD Engine
+Comment[ar]=ملحق لمحرك PoTD
+Comment[ca]=Connector per al motor PoTD del plasma
+Comment[cs]=Modul pro Plasma PoTD engine
+Comment[da]=Plugin til Plasmas dagens billede-motor.
+Comment[de]=Plasma-Modul für Bilder des Tages
+Comment[el]=Πρόσθετο της μηχανής Plasma PoTD
+Comment[en_GB]=Plugin for Plasma PoTD Engine
+Comment[es]=Complemento para el motor de imagen del día de Plasma
+Comment[et]=Plasma päevapildi mootori plugin
+Comment[fr]=Module externe pour le moteur PoTD de Plasma
+Comment[gl]=Extensión para o motor PoTD de Plasma
+Comment[hu]=Modul A nap képe Plasma-szolgáltatáshoz
+Comment[is]=Íforrit fyrir PoTD plasmavél
+Comment[it]=Estensione per il motore PoTD di Plasma
+Comment[ja]=Plasma PoTD (今日の写真) エンジンのためのプラグイン
+Comment[km]=កម្មវិធី​ជំនួយ​សម្រាប់​ប្លាស្មា​ម៉ាស៊ីន PoTD
+Comment[lt]=Priedas Plasma PoTD varikliui
+Comment[lv]=Spraudnis Plasma PoTD dzinējam
+Comment[nb]=Programtillegg for Plasma-motor  Dagens Bilde
+Comment[nds]=Moduul för Plasma sien BiV-Karn
+Comment[nl]=Plugin voor Plasma-PoTD-engine
+Comment[nn]=Programtillegg for Plasma PoTD-motoren
+Comment[pl]=Wtyczka silnika PoTD Plazmy
+Comment[pt]='Plugin' do Motor da Imagem do Dia do Plasma
+Comment[pt_BR]=Plug-in para o mecanismo PoTD do Plasma
+Comment[ro]=Modul pentru motorul de imagine a zilei Plasma
+Comment[sk]=Modul pre Plasma PoTD nástroj
+Comment[sl]=Vstavek za podatkovni pogon Slika dneva za Plasmo
+Comment[sr]=Прикључак за Плазминог мотор слика дана
+Comment[sr@latin]=Priključak za Plasminog motor slika dana
+Comment[sv]=Insticksprogram för Plasma gränssnitt till dagens bild
+Comment[tr]=Plasma PoTD Motoru için Eklenti
+Comment[uk]=Додаток для рушія Плазми PoTD
+Comment[wa]=Tchôke-divins po l' éndjin Plasma des PoTD
+Comment[x-test]=xxPlugin for Plasma PoTD Enginexx
+Comment[zh_CN]=Plasma 每日一图引擎插件
+Comment[zh_TW]=Plasma PoTD 引擎的外掛程式
+
+[PropertyDef::X-KDE-PlasmaPoTDProvider-SuffixType]
+Type=QString
+
+[PropertyDef::X-KDE-PlasmaPoTDProvider-Identifier]
+Type=QString
