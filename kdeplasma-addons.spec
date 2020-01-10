@@ -1,7 +1,7 @@
 Name:    kdeplasma-addons
 Summary: Additional plasmoids for KDE
 Version: 4.10.5
-Release: 3%{?dist}
+Release: 5%{?dist}
 
 License: GPLv2+
 URL:     http://www.kde.org/
@@ -24,6 +24,7 @@ BuildRequires: boost-devel
 BuildRequires: gettext
 BuildRequires: kdepimlibs-devel >= %{version}
 # for libplasmaclock
+BuildRequires: kde-workspace
 BuildRequires: kde-workspace-devel >= %{version}
 %if 0%{?fedora}
 BuildRequires: pkgconfig(eigen2)
@@ -423,6 +424,14 @@ fi
 
 
 %changelog
+* Fri Sep 18 2015 Jan Grulich <jgrulich@redhat.com> - 4.10.5-5
+- Rebuild: kdelibs/kde-workspace
+  Resolves: bz#1259802
+
+* Tue Sep 08 2015 Jan Grulich <jgrulich@redhat.com> - 4.10.5-4
+- Rebuild: kdelibs/kde-workspace
+  Resolves: bz#1259802
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.10.5-3
 - Mass rebuild 2014-01-24
 
