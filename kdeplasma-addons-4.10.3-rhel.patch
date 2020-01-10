@@ -1,0 +1,51 @@
+diff -ur kdeplasma-addons-orig/applets/CMakeLists.txt kdeplasma-addons-4.10.3/applets/CMakeLists.txt
+--- kdeplasma-addons-orig/applets/CMakeLists.txt	2013-05-03 06:42:07.000000000 +0200
++++ kdeplasma-addons-4.10.3/applets/CMakeLists.txt	2013-05-22 16:38:21.934607484 +0200
+@@ -37,12 +37,10 @@
+ add_subdirectory(nowplaying)
+ if(LIBATTICA_FOUND)
+   add_subdirectory(knowledgebase)
+-  add_subdirectory(community)
+   add_subdirectory(social-news)
+ endif(LIBATTICA_FOUND)
+ add_subdirectory(pastebin)
+ add_subdirectory(previewer)
+-add_subdirectory(rememberthemilk)
+ add_subdirectory(rssnow)
+ add_subdirectory(spellcheck)
+ add_subdirectory(showdashboard)
+@@ -88,12 +86,3 @@
+   add_subdirectory(plasmaboard)
+   add_subdirectory(systemloadviewer)
+ endif(NOT WIN32)
+-
+-if (Q_WS_X11)
+-   if (X11_Xrender_FOUND)
+-      set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/kimpanel/cmake)
+-      add_subdirectory(kimpanel)
+-   endif (X11_Xrender_FOUND)
+-endif (Q_WS_X11)
+-
+-add_subdirectory(webslice)
+diff -ur kdeplasma-addons-orig/dataengines/CMakeLists.txt kdeplasma-addons-4.10.3/dataengines/CMakeLists.txt
+--- kdeplasma-addons-orig/dataengines/CMakeLists.txt	2013-05-03 06:42:07.000000000 +0200
++++ kdeplasma-addons-4.10.3/dataengines/CMakeLists.txt	2013-05-22 16:38:21.934607484 +0200
+@@ -9,8 +9,6 @@
+ endif(LIBATTICA_FOUND)
+ 
+ add_subdirectory(potd)
+-add_subdirectory(rememberthemilk)
+ add_subdirectory(kdeobservatory)
+-add_subdirectory(kimpanel)
+ add_subdirectory(konsoleprofiles)
+ add_subdirectory(konqprofiles)
+diff -ur kdeplasma-addons-orig/libs/CMakeLists.txt kdeplasma-addons-4.10.3/libs/CMakeLists.txt
+--- kdeplasma-addons-orig/libs/CMakeLists.txt	2013-05-03 06:42:07.000000000 +0200
++++ kdeplasma-addons-4.10.3/libs/CMakeLists.txt	2013-05-22 16:38:21.935607491 +0200
+@@ -1,6 +1,5 @@
+ 
+ add_subdirectory(plasmaweather)
+-add_subdirectory(rtm)
+ 
+ if(${KDE_PLATFORM_PROFILE} STREQUAL "Desktop")
+     add_subdirectory(lancelot)
